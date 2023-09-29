@@ -17,7 +17,8 @@ const MovieList = () => {
     }, [type])
 
     const getData = () => {
-        fetch(`https://api.themoviedb.org/3/movie/${type ? type : "popular"}?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`)
+        // remove the braces and place your API key
+        fetch(`https://api.themoviedb.org/3/movie/${type ? type : "popular"}?api_key={REACT_APP_TMDB_API_KEY}&language=en-US`)
         .then(res => res.json())
         .then(data => setMovieList(data.results))
     }
