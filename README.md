@@ -59,7 +59,7 @@ This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) t
 7. Open your web browser and navigate to the following URL:
    
    ```bash
-   http://localhost:5000
+   http://localhost:3000
 
 ## Contributing
 
