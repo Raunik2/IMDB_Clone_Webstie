@@ -33,7 +33,7 @@ You can check out a live demo of the project [here](https://playful-basbousa-4e9
 ## API
 
 This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) to fetch movie data. You'll need to sign up for a TMDB API key and replace the placeholder API key in the code with your own.
-** Put your API Key in the home.js, movie.js and movieList.js **
+**Put your API Key in the home.js, movie.js and movieList.js**
 
 ## Installation
 
