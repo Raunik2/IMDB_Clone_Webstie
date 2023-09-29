@@ -12,7 +12,8 @@ const Movie = () => {
     }, [])
 
     const getData = () => {
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US`)
+         //Remove  the braces and place your key 
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key={REACT_APP_TMDB_API_KEY}&language=en-US`)
         .then(res => res.json())
         .then(data => setMovie(data))
     }
