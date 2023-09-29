@@ -14,11 +14,19 @@ This is an IMDb clone project built using React. It allows users to browse popul
 
 You can check out a live demo of the project [here](https://playful-basbousa-4e9f2c.netlify.app/).
 
+## ScreenShots
+
+![Screenshot 1](images/image1.png)
+*Home Page*
+
+![Screenshot 2](images/image2.png)
+*Popular movies page*
+
 ## Features
 
 - Browse popular movies.
 - View detailed information about a specific movie.
-- Explore movies in different categories (e.g., popular, top rated, upcoming).
+- Explore movies in different categories (i.e., popular, top-rated, upcoming).
 - Links to the movie's homepage and IMDb page.
 - Responsive design for mobile and desktop.
 - 
@@ -36,7 +44,7 @@ This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) t
 2. Navigate to the project directory:
    
    ```bash
-   cd Code_Pair
+   cd IMDB_Clone_Webstie
 
 4. Install dependencies:
    
